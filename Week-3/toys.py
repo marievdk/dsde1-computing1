@@ -5,24 +5,27 @@ Simple toy functions to get comfortable working
 with functions.
 '''
 
-
+a = int(input("Input a number : "))
 # write a function that adds 1
 # to the input and prints the result
 def inc(a):
-    print(a)
+    print(a+1)
+print(inc(a))
 
 
 # write a function that adds 1
 # to the input and returns the result
 def inc_return(a):
-    return # hint this is incomplete
+    return(a+1) # hint this is incomplete
+print(inc_return(a))
 
-
+b = int(input("Input another number : "))
 # write a function that adds
 # the two input numbers together
 # and returns the sum
 def sum(a, b):
-    return
+    return a+b
+print(sum(a,b))
 
 
 # write a function that takes two
@@ -30,14 +33,19 @@ def sum(a, b):
 # sum() and then increments the sum
 # using inc_return
 def sum_inc(a, b):
-    return
+    return inc_return(sum(a,b))
+
+print(sum_inc(a,b))
+
 
 
 # write a function that returns a 
 # boolean (True or False) for whether 
 # the input number is even
 def is_even(a):
-    return
+if (a/2) = (int)
+    print 'True'
+    else print 'False'
 
 
 # create for loop that takes a string
