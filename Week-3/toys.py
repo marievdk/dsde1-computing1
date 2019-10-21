@@ -4,7 +4,7 @@ toys.py
 Simple toy functions to get comfortable working 
 with functions.
 '''
-Coding 
+# Coding 
 
 a = int(input("Input a number : "))
 # write a function that adds 1
@@ -43,9 +43,17 @@ print(sum_inc(a,b))
 # write a function that returns a 
 # boolean (True or False) for whether 
 # the input number is even
-def is_even(a):
-    
+c = int(input("Input a last number : "))
 
+def is_even(a): 
+    if a%2==0 :
+        print('True, that is an even number')
+    else :
+        print('False, that is an odd number')
+
+print(is_even(a))        
+
+    
 
 # create for loop that takes a string
 # and an integer and returns a new string 
@@ -53,8 +61,7 @@ def is_even(a):
 # integer
 # e.g. string_repeat('ho', 3) returns
 # 'hohoho'
-def string_repeat(phrase, repeat):
-    # hint: you can add strings together 
-    # in order to concatenate them
-    return
+def string_repeat
+
+   
 
