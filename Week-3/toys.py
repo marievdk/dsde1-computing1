@@ -4,6 +4,7 @@ toys.py
 Simple toy functions to get comfortable working 
 with functions.
 '''
+Coding 
 
 a = int(input("Input a number : "))
 # write a function that adds 1
