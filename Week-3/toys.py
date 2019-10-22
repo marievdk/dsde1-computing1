@@ -45,13 +45,13 @@ print(sum_inc(a,b))
 # the input number is even
 c = int(input("Input a last number : "))
 
-def is_even(a): 
-    if a%2==0 :
-        print('True, that is an even number')
+def is_even(c): 
+    if c%2 == 0 :
+        return('True, that is an even number')
     else :
-        print('False, that is an odd number')
+        return('False, that is an odd number')
 
-print(is_even(a))        
+print(is_even(c))        
 
     
 
@@ -61,7 +61,13 @@ print(is_even(a))
 # integer
 # e.g. string_repeat('ho', 3) returns
 # 'hohoho'
-def string_repeat
+def string_repeat(phrase, repeat):
+    s=str()
+    for XXX in range(repeat):
+        s += phrase
+    print(s)
+print(string_repeat('ho', 3))
+
 
    
 
