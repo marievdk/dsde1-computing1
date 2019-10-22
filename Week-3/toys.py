@@ -66,7 +66,7 @@ def string_repeat(phrase, repeat):
     for XXX in range(repeat):
         s += phrase
     print(s)
-print(string_repeat('ho', 3))
+print(string_repeat('ho', 3)
 
 
    
