@@ -10,7 +10,7 @@ a = int(input("Input a number : "))
 # write a function that adds 1
 # to the input and prints the result
 def inc(a):
-    print(a+1)
+    return a+1
 print(inc(a))
 
 
@@ -47,9 +47,9 @@ c = int(input("Input a last number : "))
 
 def is_even(c): 
     if c%2 == 0 :
-        return('True, that is an even number')
+        return True
     else :
-        return('False, that is an odd number')
+        return False
 
 print(is_even(c))        
 
@@ -62,8 +62,9 @@ print(is_even(c))
 # e.g. string_repeat('ho', 3) returns
 # 'hohoho'
 def string_repeat(phrase, repeat):
-    s=str()
-    for XXX in range(repeat):
-        s += phrase
-    print(s)
-print(string_repeat('ho', 3))
+    s = str()
+    for x in range(repeat): #where you tell it to do it a set number of times this is through the range function
+        s += phrase #where it keeps adding ho to the previously empty s variable which then starts to fill
+    return s
+
+print(string_repeat('ho', 3)) 
